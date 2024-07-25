@@ -31,3 +31,4 @@ In order to test creating a new user and invoking all subsequent events, execute
            --username <test_username>
 
     You'll find the `user_pool_id` in the AWS console. For `test_username` choose the same as in step 1.
+    You can ignore the error in the console after executing the command, since it is caused by the `admin-confirm-sign-up` command not providing a client id.
