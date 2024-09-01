@@ -31,5 +31,10 @@ export class RegistrationServiceStack extends cdk.Stack {
       cognito.UserPoolOperation.POST_CONFIRMATION,
       postConfirmationLambda,
     );
+
+    new cdk.CfnOutput(this, "userPoolId", {
+      value: userPool.userPoolId,
+      exportName: "rookrallyUserPoolId",
+    });
   }
 }
