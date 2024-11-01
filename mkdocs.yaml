@@ -1,0 +1,4 @@
+site_name: 'registration-docs'
+
+nav:
+  - Home: index.md

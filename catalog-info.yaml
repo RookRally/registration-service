@@ -15,6 +15,7 @@ metadata:
       url: https://discord.com/invite/EBHEGzX
   annotations:
     github.com/project-slug: RookRally/registration-service
+    backstage.io/techdocs-ref: dir:.
 spec:
   owner: sat-registration-team
   lifecycle: production
