@@ -13,6 +13,8 @@ metadata:
       url: https://backstage.io/storybook
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: RookRally/registration-service
 spec:
   owner: sat-registration-team
   lifecycle: production
