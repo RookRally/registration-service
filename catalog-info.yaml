@@ -13,3 +13,7 @@ metadata:
       url: https://backstage.io/storybook
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
+spec:
+  owner: sat-registration-team
+  lifecycle: production
+  type: service
