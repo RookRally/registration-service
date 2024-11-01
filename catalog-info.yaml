@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: registration
+  description: |
+    Registers new users and contains the user pool. Is responsible for authentication.
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: How-Tos
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
